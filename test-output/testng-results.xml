@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RM Unify Test Automation Test Suite" duration-ms="72983" started-at="2021-06-13T10:46:44 IST" finished-at="2021-06-13T10:47:57 IST">
+    <groups>
+    </groups>
+    <test name="Unify Test Cases" duration-ms="72983" started-at="2021-06-13T10:46:44 IST" finished-at="2021-06-13T10:47:57 IST">
+      <class name="com.unifyautomation.testcases.UnifyLaunchpadTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="setup" is-config="true" duration-ms="14755" started-at="2021-06-13T10:47:25 IST" finished-at="2021-06-13T10:47:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLaunchpadLogo()[pri:1, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="verifyLaunchpadLogo" duration-ms="110" started-at="2021-06-13T10:47:40 IST" finished-at="2021-06-13T10:47:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLaunchpadLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="tearDown" is-config="true" duration-ms="820" started-at="2021-06-13T10:47:40 IST" finished-at="2021-06-13T10:47:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="setup" is-config="true" duration-ms="14626" started-at="2021-06-13T10:47:41 IST" finished-at="2021-06-13T10:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAppLibraryManagementConsoleLinks()[pri:2, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="verifyAppLibraryManagementConsoleLinks" duration-ms="213" started-at="2021-06-13T10:47:56 IST" finished-at="2021-06-13T10:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppLibraryManagementConsoleLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.unifyautomation.testcases.UnifyLaunchpadTest@4923ab24]" name="tearDown" is-config="true" duration-ms="906" started-at="2021-06-13T10:47:56 IST" finished-at="2021-06-13T10:47:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.unifyautomation.testcases.UnifyLaunchpadTest -->
+      <class name="com.unifyautomation.testcases.UnifyLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="setup" is-config="true" duration-ms="10470" started-at="2021-06-13T10:46:45 IST" finished-at="2021-06-13T10:46:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyValidAndInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="verifyValidAndInvalidLogin" duration-ms="7912" started-at="2021-06-13T10:46:55 IST" data-provider="LoginData" finished-at="2021-06-13T10:47:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rmunifyadmin@glowing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bzea2932]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidAndInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="tearDown" is-config="true" duration-ms="899" started-at="2021-06-13T10:47:03 IST" finished-at="2021-06-13T10:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="setup" is-config="true" duration-ms="8544" started-at="2021-06-13T10:47:04 IST" finished-at="2021-06-13T10:47:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyValidAndInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="verifyValidAndInvalidLogin" duration-ms="1272" started-at="2021-06-13T10:47:13 IST" data-provider="LoginData" finished-at="2021-06-13T10:47:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rmunifyadmin@glowing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidAndInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="tearDown" is-config="true" duration-ms="1478" started-at="2021-06-13T10:47:14 IST" finished-at="2021-06-13T10:47:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="setup" is-config="true" duration-ms="8397" started-at="2021-06-13T10:47:15 IST" finished-at="2021-06-13T10:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyBrandServiceStatusLogo()[pri:2, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="verifyBrandServiceStatusLogo" duration-ms="167" started-at="2021-06-13T10:47:24 IST" finished-at="2021-06-13T10:47:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrandServiceStatusLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.unifyautomation.testcases.UnifyLoginTest@307f6b8c]" name="tearDown" is-config="true" duration-ms="1361" started-at="2021-06-13T10:47:24 IST" finished-at="2021-06-13T10:47:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.unifyautomation.testcases.UnifyLoginTest -->
+    </test> <!-- Unify Test Cases -->
+  </suite> <!-- RM Unify Test Automation Test Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RM Unify Test Automation Test Suite">
+
+<listeners>
+		<listener class-name="com.unifyautomation.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+	
+	<test name="Unify Test Cases">
+		<classes>
+			<class name="com.unifyautomation.testcases.UnifyLoginTest"></class>
+			<class name="com.unifyautomation.testcases.UnifyLaunchpadTest"></class>
+		</classes>
+	</test>
+</suite>
